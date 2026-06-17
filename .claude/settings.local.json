@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//e/Flutter_Projects/**)",
+      "Bash(\\\\.yaml)",
+      "Bash(\\\\.json)",
+      "Bash(README\")",
+      "Bash(flutter analyze *)",
+      "Bash(flutter pub *)",
+      "Bash(Get-ChildItem -Path \"e:\\\\Flutter_Projects\\\\Hive\" -Force)",
+      "Bash(Select-Object Name, FullName)",
+      "Bash(Get-ChildItem -Path \"e:\\\\Flutter_Projects\\\\Hive\" -Recurse -Depth 2)",
+      "Bash(Select-Object FullName)"
+    ]
+  }
+}

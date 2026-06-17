@@ -1,0 +1,98 @@
+Hive - Flutter Project Structure
+================================
+
+PROJECT ROOT
+e:\Flutter_Projects\Hive
+├── pubspec.yaml
+├── pubspec.lock
+├── .env
+├── scheema.txt
+├── README.md
+├── analysis_options.yaml
+├── .gitignore
+├── .metadata
+├── untitled.iml
+├── [Build & Config Directories]
+│   ├── .dart_tool/
+│   ├── .idea/
+│   ├── build/
+│   ├── android/
+│   ├── ios/
+│   ├── linux/
+│   ├── macos/
+│   ├── web/
+│   └── windows/
+│
+└── lib/
+    ├── main.dart
+    │
+    ├── core/
+    │   ├── components/
+    │   │   └── auth_text_field.dart
+    │   │
+    │   ├── theme/
+    │   │   ├── app_colors.dart
+    │   │   └── app_theme.dart
+    │   │
+    │   ├── utils/
+    │   │   └── auth_validators.dart
+    │   │
+    │   └── services/
+    │       (empty)
+    │
+    └── features/
+        ├── splash/
+        │   └── view/
+        │       └── splash_page.dart
+        │
+        ├── auth/
+        │   ├── AuthRepo.dart
+        │   │
+        │   ├── log_in/
+        │   │   ├── view/
+        │   │   │   └── LoginPage.dart
+        │   │   │
+        │   │   └── viewmodel/
+        │   │       ├── LoginCubit.dart
+        │   │       └── LoginState.dart
+        │   │
+        │   ├── sign_up/
+        │   │   ├── model/
+        │   │   │   (empty)
+        │   │   │
+        │   │   ├── view/
+        │   │   │   └── SignUpPage.dart
+        │   │   │
+        │   │   └── viewmodel/
+        │   │       ├── SignUpCubit.dart
+        │   │       └── SignUpState.dart
+        │   │
+        │   └── forgot_password/
+        │       ├── view/
+        │       │   └── ForgotPasswordPage.dart
+        │       │
+        │       └── viewmodel/
+        │           ├── ForgotPasswordCubit.dart
+        │           └── ForgotPasswordState.dart
+        │
+        └── home/
+            ├── models/
+            │   ├── post_model.dart
+            │   ├── profile_model.dart
+            │   └── story_model.dart
+            │
+            ├── repo/
+            │   └── feed_repo.dart
+            │
+            ├── view/
+            │   └── home_page.dart
+            │
+            ├── viewmodel/
+            │   ├── feed_cubit.dart
+            │   └── feed_state.dart
+            │
+            └── widgets/
+                ├── post_card.dart
+                ├── stories_row.dart
+                ├── story_circle.dart
+                └── story_item.dart
